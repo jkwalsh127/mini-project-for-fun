@@ -22,51 +22,45 @@
                 <div class="card-title">
                     <h2>Flexbox Row</h2>
                 </div>             
-                <p class="description">
-                        Use these three properties to create Flexbox row layout.
-                </p>
+                <p class="description">Use these three properties to create Flexbox row layout.</p>
                 <div class="card-code">
-                        <p class="code">.row {</p>
-                        <ul>
-                            <li>display: flex;</li>
-                            <li>flex-direction: row;</li>
-                            <li>flex-wrap: wrap;</li>
-                        </ul>
-                        <p class="code">}</p>
+                    <p class="code">.row {</p>
+                    <ul>
+                        <li>display: flex;</li>
+                        <li>flex-direction: row;</li>
+                        <li>flex-wrap: wrap;</li>
+                    </ul>
+                    <p class="code">}</p>
                 </div>
             </div>
             <div class="card-inner">  
                 <div class="card-title">
-                    <h2>Flexbox Row</h2>
+                    <h2>Flexbox Column</h2>
                 </div>             
-                <p class="description">
-                        Use these three properties to create Flexbox row layout.
-                </p>
+                <p class="description">Use this to create a Flexbox cloumn layout.</p>
                 <div class="card-code">
-                        <p class="code">.row {</p>
-                        <ul>
-                            <li>display: flex;</li>
-                            <li>flex-direction: row;</li>
-                            <li>flex-wrap: wrap;</li>
-                        </ul>
-                        <p class="code">}</p>
+                    <p class="code">.column {</p>
+                    <ul>
+                        <li>display: flex;</li>
+                        <li>flex-direction: column;</li>
+                    </ul>
+                    <p class="code">}</p>
                 </div>
             </div>
             <div class="card-inner">  
                 <div class="card-title">
-                    <h2>Flexbox Row</h2>
+                    <h2>CSS Grid Layout</h2>
                 </div>             
-                <p class="description">
-                        Use these three properties to create Flexbox row layout.
-                </p>
+                <p class="description">Build a 12-column layout using CSS Grid.</p>
                 <div class="card-code">
-                        <p class="code">.row {</p>
-                        <ul>
-                            <li>display: flex;</li>
-                            <li>flex-direction: row;</li>
-                            <li>flex-wrap: wrap;</li>
-                        </ul>
-                        <p class="code">}</p>
+                    <p class="code">.grid {</p>
+                    <ul>
+                        <li>display: grid;</li>
+                        <li>width: 100%;</li>
+                        <li>grid-template-columns:</li>
+                    </ul>
+                    <p class="code">repeat(12, 1fr);</p>
+                    <p class="code">}</p>
                 </div>
             </div>
 
@@ -74,53 +68,58 @@
 
             <div class="card-inner-large">  
                 <div class="card-title">
-                    <h2>Flexbox Row</h2>
+                    <h2>Linear Gradients</h2>
                 </div>             
-                <p class="description">
-                        Use these three properties to create Flexbox row layout.
-                </p>
+                <p class="description">This will create a background linear gradient from top to bottom</p>
                 <div class="card-code">
-                        <p class="code">.row {</p>
+                    <p class="code">.linear-gradient background {</p>
+                    <ul>
+                        <li>background-image: linear-</li>
+                    </ul>
+                    <p class="code">gradient (</p>
+                    <ul>
                         <ul>
-                            <li>display: flex;</li>
-                            <li>flex-direction: row;</li>
-                            <li>flex-wrap: wrap;</li>
+                            <li>rgba(232, 102, 236, 0.3) 0%,</li>
+                            <li>rgba(232, 102, 236, 0.6) 100%</li>                                        
                         </ul>
-                        <p class="code">}</p>
+                        <li>);</li>
+                    </ul>
+                    <p class="code">}</p>
                 </div>
             </div>
             <div class="card-inner-large">  
                 <div class="card-title">
-                    <h2>Flexbox Row</h2>
+                    <h2>Box Transition Glow</h2>
                 </div>             
-                <p class="description">
-                        Use these three properties to create Flexbox row layout.
-                </p>
+                <p class="description">Use transition and box shadows to glow on hover.</p>
                 <div class="card-code">
-                        <p class="code">.row {</p>
-                        <ul>
-                            <li>display: flex;</li>
-                            <li>flex-direction: row;</li>
-                            <li>flex-wrap: wrap;</li>
-                        </ul>
-                        <p class="code">}</p>
+                    <p class="code">.code-card .card-header {</p>
+                    <ul>
+                        <li>border-radius: 8px;</li>
+                        <li>transition: all 0.5s ease-in-</li>
+                    </ul>
+                    <p class="code">}</p>
+                    <p class="code">code-card:hover,</p>
+                    <p class="code">code-card:hover .card-header {</p>
+                    <ul>
+                        <li>box-shadow: inset 0px 0px 8px</li>
+                    </ul>
+                    <p class="code">rgba(232, 102, 236, 1), 0 0 15px</p>                        <p class="code">rgba(232, 102, 236, 1);</p>
+                    <p class="code">}</p>
                 </div>
             </div>
             <div class="card-inner-large">  
                 <div class="card-title">
-                    <h2>Flexbox Row</h2>
+                    <h2>Overlay Card with Title</h2>
                 </div>             
-                <p class="description">
-                        Use these three properties to create Flexbox row layout.
-                </p>
+                <p class="description">Use position properties and negative margins to raise elements higher than their natural starting point.</p>
                 <div class="card-code">
-                        <p class="code">.row {</p>
-                        <ul>
-                            <li>display: flex;</li>
-                            <li>flex-direction: row;</li>
-                            <li>flex-wrap: wrap;</li>
-                        </ul>
-                        <p class="code">}</p>
+                    <p class="code">.card-header {</p>
+                    <ul>
+                        <li>position: relative;</li>
+                        <li>margin-top: -20px;</li>
+                    </ul>
+                    <p class="code">}</p>
                 </div>
             </div>
     </main>
